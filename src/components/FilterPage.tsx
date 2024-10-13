@@ -16,7 +16,7 @@ const filterOptions: FilterOptionsState[] = [
 ];
 
 const FilterPage = () => {
-  const appliedFilterHandler = (value: string) => {};
+  const appliedFilterHandler = (_value: string) => {};
   return (
     <div className="md:w-72">
       <div className="flex items-center justify-between">

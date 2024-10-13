@@ -13,7 +13,7 @@ import { Label } from "./label";
 import { Button } from "./button";
 
 const Profile = () => {
-  const [isLoading, _setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const [profileData, setProfileData] = useState({
     fullname: "",
     email: "",
