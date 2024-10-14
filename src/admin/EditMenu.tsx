@@ -24,7 +24,7 @@ const EditMenu = ({
   editOpen,
   setEditOpen,
 }: {
-  selectedMenu: any;
+  selectedMenu: MenuFormSchema;
   editOpen: boolean;
   setEditOpen: Dispatch<SetStateAction<boolean>>;
 }) => {
@@ -50,6 +50,8 @@ const EditMenu = ({
       setError(fieldErrors as Partial<MenuFormSchema>);
       return;
     }
+
+    console.log(input);
 
     {
       /* // api ka kaam start from here
