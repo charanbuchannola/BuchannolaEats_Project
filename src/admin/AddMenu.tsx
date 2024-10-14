@@ -23,6 +23,13 @@ const menus = [
     Image:
       "https://i0.wp.com/blog.petpooja.com/wp-content/uploads/2021/10/cultural-cuisine.jpg?resize=696%2C385&ssl=1",
   },
+  {
+    title: "Biryani",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    price: 80,
+    Image:
+      "https://i0.wp.com/blog.petpooja.com/wp-content/uploads/2021/10/cultural-cuisine.jpg?resize=696%2C385&ssl=1",
+  },
 ];
 
 const AddMenu = () => {
